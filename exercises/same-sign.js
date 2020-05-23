@@ -8,9 +8,11 @@
  */
 
 // Your code:
+const sameSign = (n1, n2) => n1 >0 && n2 >0 || n1 <0 && n2 <0 || n1 === n2 ? true : false 
+// const sameSign = (nb1, nb2) => nb1 * -1 < 0 && nb2 * -1 < 0 || nb1 * -1 > 0 && nb2 * -1 > 0 || nb1 === nb2? true : false;
 
 //* Begin of tests
-const assert = require('assert');
+const assert = require('assert') 
 
 assert.strictEqual(typeof sameSign, 'function');
 assert.strictEqual(sameSign.length, 2);
