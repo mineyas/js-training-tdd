@@ -8,7 +8,9 @@
  */
 
 // Your code:
-
+const capitalize = (ouioui) => {
+    return ouioui.charAt(0).toUpperCase() + ouioui.slice(1).toLowerCase()
+}
 //* Begin of tests
 const assert = require('assert');
 

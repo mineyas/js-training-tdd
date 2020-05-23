@@ -7,7 +7,9 @@
  */
 
 // Your code:
-
+function sentence(thebest) {
+    return thebest.join(" ")
+}
 //* Begin of tests
 const assert = require('assert');
 

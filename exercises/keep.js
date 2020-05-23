@@ -13,9 +13,29 @@
  */
 
 // Your code:
-
+const keepFirst = (boo) => {
+    return boo.slice(0, 2)
+}
+const keepLast = (yassaoule) => {
+    return yassaoule.slice(-2, yassaoule.length )
+}
+const keepFirstLast = (auresoule) => {
+    return auresoule.slice(2, 4)
+}
 //* Begin of tests
 const assert = require('assert');
 
-assert.fail('You must write your own tests');
+
+
+assert.deepStrictEqual(typeof keepFirst, 'function')
+assert.deepStrictEqual(typeof keepLast, 'function')
+assert.deepStrictEqual(typeof keepFirstLast, 'function')
+assert.strictEqual(keepFirst.length, 1);
+assert.strictEqual(keepLast.length, 1);
+assert.strictEqual(keepFirstLast.length, 1);
+assert.deepStrictEqual(keepFirst('hello'), 'he')
+assert.deepStrictEqual(keepLast('hello'), 'lo')
+assert.deepStrictEqual(keepFirstLast('holahello'), 'la')
+
+// assert.fail('You must write your own tests');
 // End of tests */

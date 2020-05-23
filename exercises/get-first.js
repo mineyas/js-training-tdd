@@ -8,7 +8,10 @@
  */
 
 // Your code:
-
+const getFirst = []
+{
+    return getFirst[1]
+}
 //* Begin of tests
 const assert = require('assert');
 

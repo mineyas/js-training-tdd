@@ -8,7 +8,10 @@
  */
 
 // Your code:
-
+const getLength = []
+{
+    return getLength.length
+}
 //* Begin of tests
 const assert = require('assert');
 
